@@ -1,0 +1,118 @@
+/* Color Palette
+#353535
+#3c6e71
+#ffffff
+#d9d9d9
+#284b63
+*/
+
+:root {
+    --charcoal: #353535;
+    --teal: #3c6e71;
+    --white: #ffffff;
+    --light-gray: #d9d9d9;
+    --navy: #284b63;
+}
+
+/* Global styles 
+------------------------------------*/
+body {
+    margin: 0;
+    font-family: 'Play', Arial, sans-serif;
+    background: transparent;
+    color: var(--charcoal);
+    line-height: 1.6;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+h1, h2, h3 {
+    font-family: 'Michroma', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+}
+
+h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+p, li, a {
+    font-family: 'Play', Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.profile-photo {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid var(--teal);
+    background: transparent;
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+/* Header & Footer 
+------------------------------------*/
+.site-header,
+.site-footer {
+    background: var(--charcoal);
+    color: var(--white);
+    padding: 2rem 1.5rem;
+    text-align: center;
+}
+
+.site-header h1,
+.site-header h2,
+.site-footer h2 {
+    color: var(--white);
+}
+
+.site-footer a {
+    color: var(--light-gray);
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+    background: var(--teal);
+    color: var(--white);
+    padding: 2rem 1.5rem;
+}
+
+.work-experience h2,
+.work-experience h3,
+.work-experience p,
+.work-experience li {
+    color: var(--white);
+}
+
+/* Education
+------------------------------------*/
+.education {
+    background: var(--navy);
+    color: var(--white);
+    padding: 2rem 1.5rem;
+}
+
+.education h2,
+.education h3,
+.education p {
+    color: var(--white);
+}
